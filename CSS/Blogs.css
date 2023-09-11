@@ -1,0 +1,133 @@
+.row {
+  /* border: 2px solid red; */
+  height: 962px;
+  width: 1531px;
+}
+
+.row .col-12 {
+  text-align: center;
+
+}
+
+.row .col-12 #head {
+  font-family: 'Baloo Bhai', cursive;
+  font-size: 37px;
+}
+
+.row .col-12 .container {
+  font-family: 'Arima', cursive;
+  font-size: 30px;
+  position: relative;
+  top: 56px;
+  text-align: center;
+
+}
+
+.row .col-12 .btn {
+  border: 2px solid rgb(144, 171, 200);
+  color: black;
+}
+
+.row .col-12 .btn a:hover {
+  border: 2px solid;
+  color: rgb(171, 192, 228);
+}
+
+
+
+#navbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 0px;
+}
+
+#navbar::before {
+  content: "";
+  background-color: rgb(22, 120, 9);
+
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  /* opacity: 0.7; */
+}
+
+.first {
+  display: flex;
+  /* border: 2px solid red; */
+  height: 500px;
+  width: 1519px;
+}
+
+.first .one {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+  height: 100%;
+}
+
+.first .two {
+  width: 55%;
+  /* border: 2px solid black; */
+  height: 100%;
+  text-align: center;
+
+}
+
+.first .two h1 {
+  color: black;
+  font-family: 'Baloo Bhai', cursive;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+#card .box {
+  /* border: 2px solid green; */
+  padding: 30px;
+  margin: 10px 55px;
+  font-size: 25px;
+  border-radius: 28px;
+  /* background: cornsilk; */
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-family: 'Baloo Bhai', cursive;
+  box-shadow: 7px 5px 10px grey;
+}
+
+.ebtn {
+  padding: 6px 20px;
+  border: 2px solid white;
+  background-color: rgb(22, 120, 9);
+  color: white;
+  /* margin: 17px; */
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  padding: 6px 20px;
+  border: 2px solid white;
+  background-color: rgb(22, 120, 9);
+  color: white;
+  /* margin: 17px; */
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+footer {
+  /* background: rgb(210 211 210); */
+  background: rgb(62 177 46);
+  /* color: white; */
+  padding: 58px 0px;
+  text-align: center;
+  height: 495px;
+  font-family: 'Bree Serif', serif;
+}
